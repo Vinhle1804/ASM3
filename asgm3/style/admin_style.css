@@ -1,0 +1,237 @@
+html {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+body a {
+  text-decoration: none;
+}
+
+.btn_back {
+  border-radius: 5px;
+  color: white;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: block;
+  border: 2px solid transparent;
+  background-color: #888;
+  width: 20px;
+  padding: 8px;
+  font-size: 20px;
+  transition: 0.2s;
+}
+.btn_back:hover {
+  border-color: #888;
+  background-color: transparent;
+  color: #888;
+  transition: 0.2s;
+}
+
+.title {
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.them_san_pham {
+  display: flex;
+  justify-content: end;
+}
+
+.btn_add {
+  cursor: pointer;
+  font-size: 15px;
+  gap: 5px;
+  border-radius: 20px;
+  margin-right: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid transparent;
+  background-color: #05a078;
+  color: white;
+  padding-block: 2px;
+  padding-left: 15px;
+  padding-right: 18px;
+  transition: 0.2s;
+}
+
+.btn_add:hover {
+  transition: 0.2s;
+  background-color: transparent;
+  border-color: #05a078;
+  color: #05a078;
+}
+
+.btn_add i {
+  font-size: 25px;
+}
+
+.btn_action {
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  transition: 0.2s;
+}
+
+.btn_action:hover {
+  opacity: 0.7;
+  transform: scale(105%);
+  transition: 0.2s;
+}
+
+.btn_action:first-child {
+  margin-right: 7px;
+  background-color: #ffad03;
+  transition: 0.2s;
+}
+
+.btn_action:last-child {
+  background-color: #e72929;
+  transition: 0.2s;
+}
+
+.danh_sach_san_pham {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  width: 100vw;
+  font-size: 20px;
+}
+
+thead tr {
+  font-size: 20px;
+  border-bottom: 1px solid red;
+  color: white;
+}
+
+.tr-head {
+  background-color: cornflowerblue !important;
+}
+
+thead th {
+  padding-block: 10px;
+}
+
+td {
+  padding-block: 5px;
+  padding-inline: 30px;
+}
+
+tr:nth-child(even) {
+  background-color: while;
+}
+tr:nth-child(odd) {
+  background-color: #eeeeee;
+}
+
+.modal {
+  display: block; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100vw; /* Full width */
+  height: 100vh; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  /* -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px); */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  border-radius: 10px;
+  background-color: #fefefe;
+  margin: 5% auto 0; /* 15% from the top and centered */
+  padding-block: 30px;
+  padding-inline: 40px;
+  border: 1px solid #888;
+  width: 60%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-content h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+form {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.form-group {
+  margin-top: 22px;
+}
+
+form label {
+  font-size: 20px;
+}
+
+form input[type='text'],
+input[type='number'] {
+  font-size: 15px;
+  height: 37px;
+  width: 100%;
+  border: 1px solid rgb(148, 148, 148);
+  border-radius: 5px;
+  padding-inline: 10px;
+}
+
+form input {
+  width: 300px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_them {
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  background-color: #05a078;
+  color: white;
+  padding: 10px 30px 10px 30px;
+  transition: 0.2s;
+}
+
+.btn_them:hover {
+  opacity: 0.7;
+  transform: scale(105%);
+  transition: 0.2s;
+}

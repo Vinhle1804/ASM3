@@ -1,0 +1,218 @@
+body {
+  background-color: #fff;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  background-color: #ccc;
+  margin: auto;
+  padding: 0;
+  width: 1440px;
+}
+
+.banner {
+  margin: auto;
+  padding: 0;
+}
+
+.banner object {
+  width: 1440px;
+}
+
+.menu {
+  background-image: url(img/navbar.jpg);
+  background-repeat: repeat;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+  width: 120px;
+  float: left;
+  text-align: center;
+  margin: 0;
+  padding: 10px 0 10px 0;
+}
+
+.menu a:hover {
+  font-weight: bold;
+  color: #ff0;
+  background-color: #f00;
+}
+
+.clear {
+  clear: both;
+}
+
+.trai {
+  background-color: #fff;
+  border: 1px solid #a71f1f;
+  float: left;
+  margin-top: 5px;
+  width: 300px;
+  padding: 0;
+  min-height: 1135px;
+}
+
+.trai h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: top;
+  font-size: 16px;
+  color: #006699;
+}
+
+.trai ul {
+  list-style: square;
+}
+
+.trai ul > li {
+  text-transform: uppercase;
+  font-weight: 900;
+  padding: 5px;
+}
+
+.trai ul > li > ul {
+  list-style: circle;
+}
+
+.trai ul > li > ul > li {
+  text-transform: capitalize;
+  font-weight: normal;
+}
+
+.trai ul > li > a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #006699;
+}
+
+.trai ul > li > a:hover {
+  text-decoration: underline;
+  color: #ff0000;
+}
+
+.phai {
+  float: left;
+  margin: 5px;
+  width: 1120px;
+}
+
+.slide {
+  width: 1130px;
+}
+
+.slide img {
+  width: 1130px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.sanpham {
+  margin: 0;
+}
+
+.sanpham h1 {
+  font-variant: small-caps;
+  font-size: 20px;
+  color: #000066;
+  margin: 0;
+  margin-left: 10px;
+  margin-block: 10px;
+}
+
+.danh-sach-san-pham {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: grid;
+  grid-template-columns: 330px 330px 330px;
+  gap: 50px;
+}
+
+.box-san-pham {
+  padding-block: 10px;
+  width: 100%;
+  height: 500px;
+  background: #fff;
+  float: left;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.anh-san-pham {
+  object-fit: contain;
+  width: 300px;
+  height: 200px;
+  margin-block: 30px;
+}
+
+.ten-san-pham {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0;
+}
+
+.gia {
+  font-size: 15px;
+  font-weight: bold;
+  color: #ff0000;
+}
+
+.sao {
+  width: 130px;
+  height: 45px;
+  object-fit: cover;
+}
+
+.btn-mua-hang {
+  width: 120px;
+  height: 40px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  background-color: #fdd245;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn-mua-hang:hover {
+  border: 2px solid #fdd245;
+  color: #fdd245;
+  background-color: transparent;
+  transition: 0.2s;
+}
+
+.footer {
+  background-color: #fff;
+}
+
+.menuduoi {
+  height: 38px;
+  line-height: 38px;
+  font-family: tahoma;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.menuduoi a {
+  text-align: center;
+  float: right;
+  width: 120px;
+  color: #000099;
+  text-decoration: none;
+}
+
+.menuduoi a:hover {
+  color: #ff0000;
+  text-decoration: none;
+}
